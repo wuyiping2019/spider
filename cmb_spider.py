@@ -49,7 +49,7 @@ time.sleep(3)
 scroll2bottom()
 html_str = driver.find_element(By.XPATH, '//*').get_attribute('outerHTML')
 total_page = get_total_page(html_str)
-f = open('cmb_product.txt', 'w', encoding='utf-8')
+f = open('data/cmb_product.txt', 'w', encoding='utf-8')
 for i in range(total_page):
     scroll2bottom()
     driver.find_element(By.XPATH, '//*[@id="tbGoPage"]').send_keys(i + 1)
