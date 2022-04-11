@@ -1,2 +1,2 @@
 # spider
-使用requests对执行网页上的内容进行爬取
+使用requests对指定网页上的内容进行爬取
